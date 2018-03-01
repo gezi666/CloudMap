@@ -3,7 +3,7 @@ import axios from 'axios'
 // axios 配置
 axios.defaults.timeout = 5000;
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';
-const baseurl = 'http://mock.eolinker.com/msYyiNpbe8b67b7183c63a9f2e6cdef67d950c50ce62f6c?uri='
+const baseurl = 'https://mock.eolinker.com/msYyiNpbe8b67b7183c63a9f2e6cdef67d950c50ce62f6c?uri='
 // axios.defaults.withCredentials = true;
 
 export function Post(url, params) {
