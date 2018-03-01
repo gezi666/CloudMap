@@ -1,0 +1,61 @@
+.boot-page{
+    width:100%;
+    height:100%;
+}
+.taxpayers-title span{
+    display:block;
+    margin-top:50px;
+    margin-bottom:54px;
+    text-align:center;
+    font-size:14px;
+    color:rgba(255,255,255,0.7);
+}
+.taxpayers-list{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.taxpayers-list li{
+    margin: 10px;
+    padding-bottom: 59px;
+    background:url(../imgs/lightbase-bg.png) no-repeat bottom center;
+}
+.taxpayers-list li a{
+    display:block;
+    width:89px;
+    height:89px;
+    border-radius:100%;
+    border:1px solid rgba(99,150,255,0.35);
+    background-image: -webkit-gradient(linear, 0 65%, 0 90%, from(rgba(88,143,255,0.15)), to(rgba(0, 138, 255, 0.30)));
+    margin:0 8px;
+    text-align:center;
+    font-size:18px;
+    font-weight: bold;
+    color:#fff;
+    text-decoration:none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.taxpayers-list li a .mtop{
+    display:block;
+    margin-top:30px;
+}
+.taxpayers-list li a .f14{
+    display:block;
+    font-size:14px;
+    font-weight:200;
+}
+.taxpayers-list li a:hover{
+    transform: translate3d(0,-10%,0);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}

@@ -1,0 +1,40 @@
+.titleBar{
+    margin-bottom:5px;
+}
+.titleBar span{
+    font-size: 14px;
+    height:14px;
+    line-height:14px;
+    color: #cdcdd0;
+}
+.titleBar i{
+    margin-right:6px;
+    height:15px;
+    width:1px;
+    border:1px solid #2a56af;
+    background:#1f3973;
+}
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing:0 4px;
+}
+.boot-page {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.overflowAuto{
+    box-sizing: border-box;
+    flex: 1;
+    overflow: auto;
+    /*height:424px;*/
+    padding-right: 5px;
+}
+.overflowAuto:hover::-webkit-scrollbar-thumb{
+    background:rgba(7,100,180,1)
+}
+.pageWrap{
+    overflow: hidden;
+    margin-top:10px;
+}

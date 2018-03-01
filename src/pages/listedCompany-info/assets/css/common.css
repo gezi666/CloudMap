@@ -1,0 +1,172 @@
+.titleBar{
+    margin-bottom:8px;
+}
+.titleBar span{
+    height:14px;
+    line-height:14px;
+    font-size: 14px;
+    color: #cdcdd0;
+}
+.titleBar i{
+    margin-left:1px;
+    margin-right:6px;
+    height:13px;
+    width:1px;
+    border:1px solid #2a56af;
+    background:#1f3973;
+}
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing:0 4px;
+}
+.boot-page {
+    width: 100%;
+    height: 100%;
+}
+/*表格头部筛选*/
+.filter li{
+    width:104px;
+    height:26px;
+    line-height:26px;
+    box-sizing:border-box;
+    margin:2px 1px -3px 0;
+    background:rgba(40,92,198,0.15);
+    color: #ffffff;
+    border:1px solid #1e417a;
+    text-align: center;
+    cursor: pointer;
+}
+.filter li.active{
+    background:rgba(40,92,198,0.35);
+    color: #cdd2de;
+    border-top: 1px solid #284f9d;
+    border-bottom: 1px solid #284f9d;
+}
+.filter li:hover{
+    background:rgba(40,92,198,0.35);
+    color: #cdd2de;
+    border-top: 1px solid #284f9d;
+    border-bottom: 1px solid #284f9d;
+}
+/*表格共用样式*/
+tr th{
+    height:34px;
+    background:rgba(40,92,198,0.35);
+    color:#cdd2de;
+    border-top:1px solid #284f9d;
+    border-bottom:1px solid #284f9d;
+    padding:0 15px;
+    text-align: left;
+}
+th.firstTh{
+    border-left:1px solid #284f9d;
+}
+th.lastTh{
+    border-right:1px solid #284f9d;
+}
+tr td{
+    height:34px;
+    background:rgba(88,143,255,0.15);
+    color:#fff;
+    border:1px solid #325eb2;
+    box-sizing: border-box;
+    border-left:none;
+    border-right:none;
+    text-align: left;
+    padding:0 15px;
+    line-height:22px;
+}
+tr:hover td{
+    background: rgba(40,92,198,0.35);
+    border:1px solid #325eb2;
+    border-right:none;
+    border-left:none;
+}
+.firstTd{
+    border-left:1px solid #1e417a;
+}
+.lastTd{
+    border-right:1px solid #1e417a;
+}
+tr:hover .firstTd{
+    border-left:1px solid #1e417a;
+}
+tr:hover .lastTd{
+    border-right:1px solid #1e417a;
+}
+.pageWrap{
+    overflow: hidden;
+    margin-top:10px;
+}
+/*修改el组件分页样式*/
+.el-pagination {
+    float: right;
+    white-space: nowrap;
+    padding: 2px 5px;
+    color: #fff;
+}
+.el-pager {
+    margin-top: 2px;
+}
+.el-pager li {
+    color: #fff;
+    background:none;
+    text-decoration: underline;
+    padding: 0 4px;
+    border-right: 0;
+    font-size: 13px;
+    min-width: 22px;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
+}
+.el-pager li.active {
+    background-color: rgba(0,150,255,0.55)  !important;
+    border-radius:50%;
+    color: #fff;
+    cursor: default;
+}
+.el-pager li:last-child {
+    border-right: 1px solid transparent;
+}
+.el-pagination button.disabled {
+    color: #e4e4e4;
+    background-color: transparent;
+    cursor: not-allowed;
+}
+.el-autocomplete-suggestion__wrap, .el-pager li {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+.el-pagination .btn-next, .el-pagination .btn-prev {
+    background: center center no-repeat transparent;
+    background-size: 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin: 0;
+    color: #97a8be;
+}
+.el-pagination__editor {
+    /*border: 1px solid transparent !important;*/
+    border: 1px solid rgba(0,150,255,0.55);
+    border-radius: 2px;
+    line-height: 18px;
+    height:24px;
+    width: 30px;
+    text-align: center;
+    margin: 0 6px;
+    box-sizing: border-box;
+    transition: border .3s;
+    color:#Fff;
+}
+.el-pager li.btn-quicknext, .el-pager li.btn-quickprev {
+    line-height: 22px;
+    color: #97a8be;
+}
+.el-pagination button, .el-pagination span {
+    cursor: pointer;
+}
+input{
+    background-color: transparent;
+}
